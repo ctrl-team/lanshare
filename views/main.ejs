@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>strona domowa</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+    integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="header"><span style="color: #1c77c3">Strona</span> <span style="color: white"><i
+          class="fas fa-home"></i></span> - wysyłanie <span style="color: white">plików</span></div>
+
+    <form id="frmUploader" font enctype="multipart/form-data" action="api/Upload/" method="post">
+      <input type="file" name="imgUploader" id="file" class="formElem" multiple required />
+      <label for="file"><i class="fas fa-file"></i></i> &nbsp;wybierz pliki</label>
+
+      <button name="submit" type="submit" id="btnSubmit" class="formElem" disabled>
+        <i class="fas fa-file-import"></i> &nbsp;Wyślij
+      </button>
+    </form>
+
+    <div id="allFiles">
+      <a href="/images"><i class="fas fa-folder-open"></i> &nbsp;wszystkie pliki</a>
+    </div>
+  </div>
+
+  <div id="selectedPop">
+    <i class="fas fa-check"></i> &nbsp;Pliki wybrane
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

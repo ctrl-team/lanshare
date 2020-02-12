@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1c1d21;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#header {
+  font-size: 30px;
+  margin: 2vh;
+  margin-bottom: 5vh;
+  color: #40bcd8;
+}
+form {
+  display: flex;
+  padding: 1vh;
+}
+input[type="file"] {
+  display: none;
+  cursor: pointer;
+}
+label {
+  font-size: 22px;
+  padding: 1vh;
+  cursor: pointer;
+  background: #40bcd8;
+  color: #1c1d21;
+  transition: color 600ms, background 600ms;
+}
+label:hover {
+  background: #1c1d21;
+  color: #40bcd8;
+  transition: color 300ms, background 300ms;
+}
+#btnSubmit {
+  color: #1c1d21;
+  font-size: 22px;
+  width: 12vh;
+  margin-left: 1vh;
+  cursor: pointer;
+  background: #1c77c3;
+  border: none;
+  transition: color 300ms, background 600ms;
+}
+#btnSubmit:hover {
+  background: #1c1d21;
+  color: #1c77c3;
+  transition: color 300ms, background 300ms;
+}
+#btnSubmit:disabled {
+  background: #1c1d21;
+  color: #1c77c3;
+}
+#allFiles {
+  margin: 5vh;
+}
+#allFiles a {
+  padding: 1vh;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+}
+#selectedPop {
+  background: #34eb6e;
+  color: #1c1d21;
+  width: 100%;
+  padding: 1vh;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: -450px;
+  transition: bottom 500ms;
+}
