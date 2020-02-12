@@ -12,25 +12,24 @@
 
 <body>
   <div id="container">
-    <div id="header"><span style="color: #1c77c3">Strona</span> <span style="color: white"><i
-          class="fas fa-home"></i></span> - wysyłanie <span style="color: white">plików</span></div>
+    <div id="header">lan<span style="color: #1c77c3;">share</span></div>
 
     <form id="frmUploader" font enctype="multipart/form-data" action="api/Upload/" method="post">
       <input type="file" name="imgUploader" id="file" class="formElem" multiple required />
-      <label for="file"><i class="fas fa-file"></i></i> &nbsp;wybierz pliki</label>
+      <label for="file"><i class="fas fa-file"></i></i> &nbsp;Choose files</label>
 
       <button name="submit" type="submit" id="btnSubmit" class="formElem" disabled>
-        <i class="fas fa-file-import"></i> &nbsp;Wyślij
+        <i class="fas fa-file-import"></i> &nbsp;Send
       </button>
     </form>
 
     <div id="allFiles">
-      <a href="/images"><i class="fas fa-folder-open"></i> &nbsp;wszystkie pliki</a>
+      <a href="/images"><i class="fas fa-folder-open"></i> &nbsp;All files</a>
     </div>
   </div>
 
   <div id="selectedPop">
-    <i class="fas fa-check"></i> &nbsp;Pliki wybrane
+    <i class="fas fa-check"></i> &nbsp;Files chosen
   </div>
 
   <script src="script.js"></script>

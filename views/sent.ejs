@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>strona domowa - wysłane poprawnie</title>
-    <style>
-      body {
-        background: #1c1d21;
-        color: white;
-        margin: 0;
-        padding: 0;
-        font-family: "Ubuntu", sans-serif;
-      }
-      #container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-      }
-      #header {
-        font-size: 30px;
-        margin: 2vh;
-        margin-bottom: 5vh;
-        color: #40bcd8;
-      }
-      #btns {
-        display: flex;
-      }
-      .btn a {
-        color: white;
-        text-decoration: none;
-        margin: 1vh;
-        transition: color 600ms;
-      }
-      .btn a:hover {
-        color: #1c77c3;
-        transition: color 300ms;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="container">
-      <div id="header">Plik wysłany poprawnie</div>
-      <div id="btns">
-        <div id="back" class="btn">
-          <a href="/">Powrót</a>
-        </div>
-        <div id="allFiles" class="btn">
-          <a href="/images">wszystkie pliki</a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>strona domowa - wysłane poprawnie</title>
+  <style>
+    body {
+      background: #1c1d21;
+      color: white;
+      margin: 0;
+      padding: 0;
+      font-family: "Ubuntu", sans-serif;
+    }
+
+    #container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #header {
+      font-size: 30px;
+      margin: 2vh;
+      margin-bottom: 5vh;
+      color: #40bcd8;
+    }
+
+    #btns {
+      display: flex;
+    }
+
+    .btn a {
+      color: white;
+      text-decoration: none;
+      margin: 1vh;
+      transition: color 600ms;
+    }
+
+    .btn a:hover {
+      color: #1c77c3;
+      transition: color 300ms;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">Files sent properly</div>
+    <div id="btns">
+      <div id="back" class="btn">
+        <a href="/">Back</a>
+      </div>
+      <div id="allFiles" class="btn">
+        <a href="/images">All files</a>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
