@@ -18,7 +18,7 @@ this repo
 
 ### author
 JaZax
-twitter: @spaghw
+- Twitter: [@spaghw](https://twitter.com/spaghw)
 
 ### license
 
