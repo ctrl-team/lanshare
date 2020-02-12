@@ -13,6 +13,9 @@ you can connect to this address from any device connected to your local network
 
 files that you send are stored on a computer that you ran a node . command in a directory called ./images
 
+since its impossible to push empty folders on github, i added a placeholder image - you can delete it after you download
+this repo
+
 ### author
 JaZax
 twitter: @spaghw
