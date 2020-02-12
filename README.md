@@ -17,7 +17,7 @@ since its impossible to push empty folders on github, i added a placeholder imag
 this repo
 
 ### author
-JaZax
+# JaZax
 - Twitter: [@spaghw](https://twitter.com/spaghw)
 
 ### license
