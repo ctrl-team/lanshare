@@ -11,6 +11,8 @@
 
 you can connect to this address from any device connected to your local network
 
+to change port all you have to do is change a port variable inside index.js
+
 files that you send are stored on a computer that you ran a node . command in a directory called ./images
 
 since its impossible to push empty folders on github, i added a placeholder image - you can delete it after you download
